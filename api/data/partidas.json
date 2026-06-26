@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "jogador1": "Rennascido",
+        "jogador2": "Teste01",
+        "pontos_jogador1": 17,
+        "pontos_jogador2": 14,
+        "status": "finalizada",
+        "modo": "ranked",
+        "servidor": "sa-east-1",
+        "duracao_minutos": 8
+    },
+    {
+        "id": 2,
+        "jogador1": "JKPlayer",
+        "jogador2": "LucasPong",
+        "pontos_jogador1": 11,
+        "pontos_jogador2": 6,
+        "status": "finalizada",
+        "modo": "casual",
+        "servidor": "sa-east-1",
+        "duracao_minutos": 5
+    },
+    {
+        "id": 3,
+        "jogador1": "CloudGamer",
+        "jogador2": "DevMaster",
+        "pontos_jogador1": 9,
+        "pontos_jogador2": 11,
+        "status": "finalizada",
+        "modo": "ranked",
+        "servidor": "us-east-1",
+        "duracao_minutos": 7
+    },
+    {
+        "id": 4,
+        "jogador1": "DockerKing",
+        "jogador2": "PingLord",
+        "pontos_jogador1": 4,
+        "pontos_jogador2": 11,
+        "status": "finalizada",
+        "modo": "casual",
+        "servidor": "sa-east-1",
+        "duracao_minutos": 4
+    },
+    {
+        "id": 5,
+        "jogador1": "BitPlayer",
+        "jogador2": "ApiRunner",
+        "pontos_jogador1": 11,
+        "pontos_jogador2": 10,
+        "status": "finalizada",
+        "modo": "ranked",
+        "servidor": "us-east-1",
+        "duracao_minutos": 9
+    },
+    {
+        "id": 6,
+        "jogador1": "StackZero",
+        "jogador2": "BugHunter",
+        "pontos_jogador1": 6,
+        "pontos_jogador2": 11,
+        "status": "finalizada",
+        "modo": "casual",
+        "servidor": "sa-east-1",
+        "duracao_minutos": 6
+    },
+    {
+        "id": 7,
+        "jogador1": "NetWarrior",
+        "jogador2": "CodeStrike",
+        "pontos_jogador1": 11,
+        "pontos_jogador2": 3,
+        "status": "finalizada",
+        "modo": "ranked",
+        "servidor": "eu-west-1",
+        "duracao_minutos": 5
+    },
+    {
+        "id": 8,
+        "jogador1": "PacketHero",
+        "jogador2": "LatencyZero",
+        "pontos_jogador1": 10,
+        "pontos_jogador2": 11,
+        "status": "finalizada",
+        "modo": "ranked",
+        "servidor": "sa-east-1",
+        "duracao_minutos": 10
+    },
+    {
+        "id": 9,
+        "jogador1": "ServerSide",
+        "jogador2": "ClientFast",
+        "pontos_jogador1": 11,
+        "pontos_jogador2": 8,
+        "status": "finalizada",
+        "modo": "casual",
+        "servidor": "us-east-1",
+        "duracao_minutos": 7
+    },
+    {
+        "id": 10,
+        "jogador1": "DeployMan",
+        "jogador2": "ActionBot",
+        "pontos_jogador1": 7,
+        "pontos_jogador2": 11,
+        "status": "finalizada",
+        "modo": "ranked",
+        "servidor": "sa-east-1",
+        "duracao_minutos": 8
+    }
+]
