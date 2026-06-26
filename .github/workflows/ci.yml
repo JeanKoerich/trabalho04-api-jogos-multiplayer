@@ -1,0 +1,42 @@
+name: CI - API Jogos Multiplayer
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  testes:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Baixa o código-fonte do repositório para o ambiente do GitHub Actions.
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      # Configura a versão do Python usada pela API e pelos testes.
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # Instala as dependências necessárias para executar a API, o lint e os testes.
+      - name: Instalar dependências
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r api/requirements.txt
+
+      # Etapa adicional do pipeline: verifica problemas de padrão e qualidade no código.
+      - name: Análise estática com flake8
+        run: |
+          flake8 api --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 api --count --exit-zero --max-complexity=10 --max-line-length=120 --statistics
+
+      # Executa os testes unitários da API.
+      - name: Executar testes unitários
+        run: |
+          cd api
+          pytest -v
