@@ -1,4 +1,4 @@
-# API de Jogos Multiplayer
+# API REST para Servidor de Jogos Multiplayer
 
 Este projeto foi desenvolvido para o Trabalho Final da disciplina de Cloud Computing. O objetivo foi criar uma API REST simples, mantendo relação com os trabalhos anteriores da disciplina, que tinham como tema aplicações e servidores de jogos multiplayer.
 
